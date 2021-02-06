@@ -142,8 +142,9 @@ footer :nth-child(3) {
 }
 
 .form-section {
-  display: none;
-  width: 200px;
+  display: block;
+  width: 50%;
+  padding-bottom: 100px;
 }
 .form-section div {
   width: 50%;

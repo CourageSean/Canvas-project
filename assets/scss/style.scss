@@ -165,8 +165,10 @@ footer {
 }
 
 .form-section {
-  display: none;
-  width: 200px;
+  display: block;
+  width: 50%;
+
+  padding-bottom: 100px;
   div {
     width: 50%;
     margin: auto;
