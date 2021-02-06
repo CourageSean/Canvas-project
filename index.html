@@ -96,9 +96,8 @@
         <div><img src="assets/images/img_8.jpg" alt="" /></div>
         <div><img src="assets/images/img_9.jpg" alt="" /></div>
         <div><img src="assets/images/img_10.png" alt="" /></div>
-        <div ><img src="assets/images/img_11.png" alt="" /></div>
+        <div><img src="assets/images/img_11.png" alt="" /></div>
       </div>
-      
     </section>
 
     <section id="section-4">
@@ -107,22 +106,50 @@
         <p>so check back for new artworks.</p>
       </div>
     </section>
-      <footer>
-        <div>
-          <img src="assets/images/google_logo.png" alt="google cloud" />
-        </div>
-        <div>
+    <footer>
+      <div>
+        <img src="assets/images/google_logo.png" alt="google cloud" />
+      </div>
+      <div>
+        <p>
+          The art created through this project reflects the sole expressions of
+          the
+        </p>
+        <p>
+          artists and not the expressions or opinions of Google LLC or its
+          affiliates.
+        </p>
+      </div>
+      <div>
+        <a href="https://policies.google.com/">Privacy & Terms</a>
+      </div>
+    </footer>
+    <section class="form-section">
+      <div>
+        <form name="contact" method="POST" data-netlify="true">
           <p>
-            The art created through this project reflects the sole expressions
-            of the 
+            <label>Your Name: <input type="text" name="name" /></label>
           </p>
-          <p>artists and not the expressions or opinions of Google LLC or
-            its affiliates.</p>
-        </div>
-        <div>
-          <a href="https://policies.google.com/">Privacy & Terms</a>
-        </div>
-      </footer>
-    
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label
+              >Your Role:
+              <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+              </select></label
+            >
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+      </div>
+    </section>
   </body>
 </html>

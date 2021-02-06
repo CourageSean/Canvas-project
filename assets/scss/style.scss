@@ -124,7 +124,6 @@ p {
   }
 }
 
-
 // Section - 3 END
 
 //Section - 4
@@ -162,5 +161,17 @@ footer {
 
   :nth-child(3) {
     width: 40%;
+  }
+}
+
+.form-section {
+  display: none;
+  width: 200px;
+  div {
+    width: 50%;
+    margin: auto;
+    form {
+      width: 100%;
+    }
   }
 }

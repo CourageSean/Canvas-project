@@ -109,10 +109,6 @@ p {
   width: 100%;
 }
 
-#last-img {
-  max-width: 480px;
-}
-
 #section-4 {
   display: grid;
   place-items: center;
@@ -143,6 +139,18 @@ footer :nth-child(2) {
 }
 footer :nth-child(3) {
   width: 40%;
+}
+
+.form-section {
+  display: none;
+  width: 200px;
+}
+.form-section div {
+  width: 50%;
+  margin: auto;
+}
+.form-section div form {
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
