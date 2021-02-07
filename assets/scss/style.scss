@@ -112,9 +112,10 @@ p {
     flex-wrap: wrap;
     width: 90%;
     margin: auto;
+    justify-content: center;
 
     div {
-      flex: 1 1 45%;
+      flex: 0 1 45%;
       margin: 1rem;
 
       img {
@@ -123,6 +124,8 @@ p {
     }
   }
 }
+
+
 
 // Section - 3 END
 
@@ -141,6 +144,8 @@ p {
     }
   }
 }
+
+
 
 footer {
   width: 90%;

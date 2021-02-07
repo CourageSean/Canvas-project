@@ -100,9 +100,10 @@ p {
   flex-wrap: wrap;
   width: 90%;
   margin: auto;
+  justify-content: center;
 }
 #section-3 div div {
-  flex: 1 1 45%;
+  flex: 0 1 45%;
   margin: 1rem;
 }
 #section-3 div div img {
